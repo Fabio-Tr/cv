@@ -2,7 +2,7 @@
     <x-slot name='title'>
         Fabio Trani Curriculum Vitae
     </x-slot>
-
+    <x-navbar/>
 
     <div class="container">
         <div class="row justify-content-center d-flex align-items-center">
