@@ -11281,7 +11281,43 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary);
+    text-shadow: 1px 1px black;
 
+}
+
+:root {
+    --primary: #010638;
+    --secondary: #ff5100;
+    --complementary: ;
+}
+
+
+body {
+    min-height: 100vh;
+    background: linear-gradient( rgba(255, 255, 255, 0.575) 20%, var(--primary));
+    background-repeat: no-repeat;
+}
+
+.cv-navbar {
+    background: linear-gradient( 360deg, rgba(255, 255, 255, 0.575), var(--primary) );
+    background-repeat: no-repeat;
+    border-bottom: solid var(--secondary) 1px;
+}
+
+.musthead {
+    min-height: 80vh;
+}
+
+.cv-container {
+    min-height: 80vh;
+}
+
+.contact-form {
+    min-height: 80vh;
+}
 
 
 
