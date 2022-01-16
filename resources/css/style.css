@@ -13,7 +13,6 @@
 
 body {
     min-height: 100vh;
-    /*     background: linear-gradient(rgba(255, 255, 255, 0.575) 20%, var(--primary)); */
     background-image: url(/img/background3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -32,7 +31,7 @@ body {
     background-color: rgba(2, 40, 255, 0.596);
     padding: 15px;
     box-shadow: black 1px;
-    animation: text-animation 2s;
+    animation: text-animation 2s cubic-bezier(0.215, 0.61, 0.355, 1);
     border-width: 3px;
     border-style: solid;
     border-image: linear-gradient(rgba(255, 255, 255, 0), white) 1;
@@ -41,7 +40,7 @@ body {
 .project-navbar {
     background-color: var(--primary);
     border-bottom: solid var(--secondary) 1px;
-    animation: navbar-animation 2s;
+    animation: navbar-animation 2s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .navbar-collapse .navbar-nav .nav-link {

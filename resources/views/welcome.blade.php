@@ -10,7 +10,7 @@
 
         <div class="container d-flex justify-content-center align-items-center home-container rounded" id="home">
             <div class="row justify-content-center d-flex align-items-center">
-                <div class="row col-12 d-flex align-items-center">
+                <div class="row col-12 d-flex justify-content-center align-items-center">
 
                     <div class="row col-12 col-md-6 text-end">
                         <h1 class="col-12">Fabio Trani</h1>
