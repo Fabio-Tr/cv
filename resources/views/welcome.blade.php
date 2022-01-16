@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <div class="container justify-content-center align-items-center cv-container d-none" id="cv">
+    <div class="container justify-content-center align-items-center cv-container" style="display: none;" id="cv">
         <div class="row justify-content-center align-items-center">
             <h2 class="text-center">Curriculum Vitae</h2>
 
@@ -98,32 +98,31 @@
         </div>
     </div>
 
-    <div class="container justify-content-center align-items-center contact-form d-none" id="contact">
+    <div class="container justify-content-center align-items-center contact-form" style="display: none;" id="contact">
         <div class="row justify-content-center align-items-center">
             <h1 class="col-12 text-center">Contattami</h1>
 
             <form class="col-12">
-                <div class="row">
+                <div class="row col-12 col-md-6">
 
                     <div class="col-12 col-md-6 mb-3">
                         <label for="exampleInputName" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="NameHelp">
+                        <input type="text" class="form-control" id="exampleInputName">
                     </div>
-                    
+
                     <div class="col-12 col-md-6 mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
                     </div>
 
-                  </div>
+                </div>
 
 
-                <div class="mb-3">
+                <div class="col-12 mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-
+                
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>

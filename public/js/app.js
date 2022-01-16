@@ -3229,9 +3229,6 @@ window.onload = function () {
       y.classList.remove("d-flex");
       z.style.display = "none";
       z.classList.remove("d-flex");
-    } else {
-      x.style.display = "none";
-      x.classList.remove("d-flex");
     }
   };
 
@@ -3241,14 +3238,11 @@ window.onload = function () {
     var z = document.getElementById("contact");
 
     if (x.style.display === "none") {
-      x.classList.remove("d-none");
       x.style.display = "block";
       y.classList.remove("d-flex");
       y.style.display = "none";
       z.classList.remove("d-flex");
       z.style.display = "none";
-    } else {
-      x.style.display = "none";
     }
   };
 
@@ -3258,14 +3252,11 @@ window.onload = function () {
     var z = document.getElementById("cv");
 
     if (x.style.display === "none") {
-      x.classList.remove("d-none");
       x.style.display = "block";
       y.classList.remove("d-flex");
       y.style.display = "none";
       z.classList.remove("d-flex");
       z.style.display = "none";
-    } else {
-      x.style.display = "none";
     }
   };
 };
