@@ -11300,6 +11300,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    -webkit-animation: background-animation 4s cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation: background-animation 4s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .footer {
@@ -11311,7 +11313,7 @@ body {
 }
 
 #home, #cv, #contact {
-    background-color: rgba(2, 40, 255, 0.596);
+    background-color: rgba(2, 40, 255, 0.89);
     padding: 15px;
     box-shadow: black 1px;
     -webkit-animation: text-animation 2s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -11359,23 +11361,71 @@ body {
     min-height: 90vh;
 }
 @-webkit-keyframes text-animation {
-    from {-webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);}
-    to {-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+  from {
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
   }
+
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
 
 @keyframes text-animation {
-    from {-webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);}
-    to {-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+  from {
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
   }
 
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
 @-webkit-keyframes navbar-animation {
-    from {-webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
-    to {-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
 
 @keyframes navbar-animation {
-    from {-webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
-    to {-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@-webkit-keyframes background-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes background-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 

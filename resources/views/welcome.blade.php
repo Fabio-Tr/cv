@@ -6,6 +6,22 @@
 
     <div class="container musthead d-flex align-items-center">
 
+        @if (session('message'))
+            <div class="alert alert-success">
+                {{ session('message') }}
+            </div>
+        @endif
+
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li class="text-dark">{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
 
 
         <div class="container d-flex justify-content-center align-items-center home-container rounded" id="home">
@@ -112,25 +128,30 @@
             <div class="row justify-content-center align-items-center">
                 <h1 class="col-12 text-center">Contattami</h1>
 
-                <form class="col-12">
+                <form class="col-12" method="POST" action="{{ route('mail.contact') }}">
+                    @csrf
                     <div class="row col-12 col-md-6">
 
                         <div class="col-12 col-md-6 mb-3">
                             <label for="exampleInputName" class="form-label">Il tuo nome</label>
-                            <input type="text" class="form-control" id="exampleInputName">
+                            <input type="text" name="name" value="{{ old('name') }}" class="form-control"
+                                id="exampleInputName">
                         </div>
 
                         <div class="col-12 col-md-6 mb-3">
                             <label for="exampleInputEmail1" class="form-label">Il tuo indirizzo email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1">
+                            <input type="email" name="email" value="{{ old('email') }}" class="form-control"
+                                id="exampleInputEmail1">
                         </div>
 
                     </div>
 
 
                     <div class="col-12 mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Scrivi qui il tuo messaggio</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="exampleFormControlTextarea1" class="form-label">Scrivi qui il tuo
+                            messaggio</label>
+                        <textarea type="Text" name="message" value="{{ old('message') }}" class="form-control"
+                            id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
 
                     <div class="mb-3 form-check">

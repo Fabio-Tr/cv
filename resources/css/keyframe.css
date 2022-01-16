@@ -1,9 +1,29 @@
 @keyframes text-animation {
-    from {clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);}
-    to {clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+  from {
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
   }
 
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
 @keyframes navbar-animation {
-    from {clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
-    to {clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+  from {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes background-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

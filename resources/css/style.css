@@ -17,6 +17,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    animation: background-animation 4s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .footer {
@@ -28,7 +29,7 @@ body {
 }
 
 #home, #cv, #contact {
-    background-color: rgba(2, 40, 255, 0.596);
+    background-color: rgba(2, 40, 255, 0.89);
     padding: 15px;
     box-shadow: black 1px;
     animation: text-animation 2s cubic-bezier(0.215, 0.61, 0.355, 1);
