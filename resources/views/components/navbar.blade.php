@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
     <div class="container-fluid project-navbar">
         <a class="navbar-brand" href="#">
-            <img src="./img/logo.png" alt="" width="50" height="50">
+            <img src="./img/logo1.png" alt="" width="50" height="50">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

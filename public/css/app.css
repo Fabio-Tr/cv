@@ -11329,6 +11329,10 @@ body {
             animation: navbar-animation 2s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
+.navbar-brand img {
+    border-radius: 50% !important;
+}
+
 .navbar-collapse .navbar-nav .nav-link {
     color: var(--secondary);
     transition: all 0.25s;
