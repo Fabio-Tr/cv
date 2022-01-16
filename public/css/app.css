@@ -11283,8 +11283,7 @@ textarea.form-control-lg {
 }
 * {
     font-family: 'Roboto', sans-serif;
-    color: var(--secondary);
-    text-shadow: 1px 1px black;
+    color: var(--complementary);
 
 }
 
@@ -11294,20 +11293,14 @@ textarea.form-control-lg {
     --complementary: white;
 }
 
-.transition-fade {
-    transition: 0.4s;
-    opacity: 1;
-}
-
-html.is-animating .transition-fade {
-    opacity: 0;
-}
-
 
 body {
     min-height: 100vh;
-    background: linear-gradient(rgba(255, 255, 255, 0.575) 20%, var(--primary));
+    /*     background: linear-gradient(rgba(255, 255, 255, 0.575) 20%, var(--primary)); */
+    background-image: url(/img/background3.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .footer {
@@ -11318,17 +11311,31 @@ body {
     margin-bottom: 0px;
 }
 
-h1, h2, h3 {
+#home, #cv, #contact {
+    background-color: rgba(2, 40, 255, 0.596);
+    padding: 15px;
+    box-shadow: black 1px;
     -webkit-animation: text-animation 2s;
             animation: text-animation 2s;
+    border-width: 3px;
+    border-style: solid;
+    -o-border-image: linear-gradient(rgba(255, 255, 255, 0), white) 1;
+       border-image: linear-gradient(rgba(255, 255, 255, 0), white) 1;
 }
 
 .project-navbar {
     background-color: var(--primary);
     border-bottom: solid var(--secondary) 1px;
+    -webkit-animation: navbar-animation 2s;
+            animation: navbar-animation 2s;
 }
 
 .navbar-collapse .navbar-nav .nav-link {
+    color: var(--secondary);
+    transition: all 0.25s;
+}
+
+.navbar-collapse .navbar-nav .nav-link:visited {
     color: var(--secondary);
     transition: all 0.25s;
 }
@@ -11346,24 +11353,27 @@ h1, h2, h3 {
 
 
 .musthead {
-    min-height: 80vh;
-}
-
-.cv-container {
-    min-height: 80vh;
-}
-
-.contact-form {
-    min-height: 80vh;
+    min-height: 90vh;
 }
 @-webkit-keyframes text-animation {
-    from {-webkit-clip-path: circle(0%);clip-path: circle(0%);}
-    to {-webkit-clip-path: circle(100%);clip-path: circle(100%);}
+    from {-webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);}
+    to {-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
   }
+
 @keyframes text-animation {
-    from {-webkit-clip-path: circle(0%);clip-path: circle(0%);}
-    to {-webkit-clip-path: circle(100%);clip-path: circle(100%);}
+    from {-webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);}
+    to {-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
   }
+
+@-webkit-keyframes navbar-animation {
+    from {-webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
+    to {-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+}
+
+@keyframes navbar-animation {
+    from {-webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
+    to {-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+}
 
 
 
