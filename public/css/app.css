@@ -11310,6 +11310,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.footer {
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
 h1, h2, h3 {
     -webkit-animation: text-animation 2s;
             animation: text-animation 2s;

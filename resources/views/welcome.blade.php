@@ -134,5 +134,5 @@
 
 
 
-
+<x-footer/>
 </x-layout>
