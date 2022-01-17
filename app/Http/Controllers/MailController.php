@@ -22,7 +22,7 @@ class MailController extends Controller
         Mail::to('inviomailsitotest@gmail.com')->send(new InfoRequest($contact));
 
 
-        return redirect(route('homepage'))->with('message', 'Grazie per il messaggio! ti ricontatteremo al più presto.');
+        return redirect(route('homepage'))->with('message', 'Grazie per il messaggio! Ti ricontatterò al più presto.');
     }
 
 }

@@ -22,7 +22,7 @@ body {
 
 .footer {
     background: transparent;
-    position: absolute;
+    position: sticky;
     bottom: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -45,7 +45,23 @@ body {
 }
 
 .navbar-brand img {
-    border-radius: 50% !important;
+    /*     border-radius: 50% !important; */
+/*     width: 40px;
+    height: 40px; */
+}
+
+.mytoggler {
+    border-color: var(--secondary) !important;
+}
+
+a i {
+    color: var(--secondary);
+    transition: all 0.25s;
+}
+
+a i:hover {
+    color: var(--complementary);
+    transition: all 0.25s;
 }
 
 .navbar-collapse .navbar-nav .nav-link {
