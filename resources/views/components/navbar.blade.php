@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-light py-0">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light py-0">
     <div class="container-fluid project-navbar align-items-center">
         <a class="navbar-brand" href="{{route('homepage')}}">
             <img src="./img/logo3.png" alt="Il logo di Fabio Trani" class="img-fluid">
@@ -17,7 +17,7 @@
         </div>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" id="home-nav" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" id="home-nav" aria-current="page" href="#">About me</a>
                 <a class="nav-link" id="cv-nav" href="#">CV</a>
                 <a class="nav-link" id="contact-nav" href="#">Contattami</a>
             </div>
