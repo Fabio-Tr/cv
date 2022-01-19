@@ -30,22 +30,25 @@
 
         <div class="container musthead justify-content-center">
 
-            <div class="row">
+            <div class="row d-flex justify-content-center">
 
-                <div class="row col-12 text-end first-title py-5">
-                    <h1 class="col-12" itemprop="name"><span> Fabio Trani</span></h1>
-                    <h3 class="col-12 fst-italic" itemprop="jobTitle"><span>Full-Stack Web Developer</span></h3>
+                <div class="row d-flex justify-content-center p-0 m-3">
+                    <div class="first-title">
+                        <h1 class="col-12 text-center h1-animation" itemprop="name"> Fabio Trani</h1>
+                        <h3 class="col-12 text-center h3-animation fst-italic" itemprop="jobTitle">Full-Stack Web Developer</h3>
+                    </div>
                 </div>
-
                 <div class="container col-12 d-flex justify-content-center align-items-center home-container rounded pt-3"
                     id="home">
                     <div class="row justify-content-center d-flex align-items-center">
 
                         <h2 class="col-12 yellow-text font-gothic">About me</h2>
                         <p class="col-12 pt-5" itemprop="knowsAbout">
-                            Mi chiamo Fabio Trani, ho 31 anni e sono un Junior Full-Stack Web Developer abile nelle
+                            Mi chiamo <strong>Fabio Trani</strong>, ho 31 anni e sono un <strong>Junior Full-Stack Web
+                                Developer</strong> abile nelle
                             metodologie agili. <br><br>
-                            La mia formazione si è concretizzata tramite il Coding Bootcamp per Web Developers di Aulab
+                            La mia formazione si è concretizzata tramite il <strong>Coding Bootcamp per Web Developers
+                                di Aulab</strong>
                             che
                             mi
                             ha
@@ -114,7 +117,7 @@
 
                             <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                 aria-labelledby="nav-profile-tab">
-                                <h3 class="font-gothic pt-3">Istruzione e formazione</h3>
+                                <h4 class="font-gothic pt-3">Istruzione e formazione</h4>
                                 <p class="">
                                     2021 <br>
                                     <strong class="yellow-text">Aulab Hackademy</strong> <br>
@@ -138,11 +141,12 @@
 
                             <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                 aria-labelledby="nav-contact-tab">
-                                <h3 class="font-gothic pt-3">Esperienze lavorative</h3>
+                                <h4 class="font-gothic pt-3">Esperienze lavorative</h4>
                                 <p class="">
                                     12/2021 <br>
                                     Aulab Hackademy <br>
-                                    <strong class="yellow-text">Full-Stack Web Developer - Progetto Presto.it</strong> <br>
+                                    <strong class="yellow-text">Full-Stack Web Developer - Progetto
+                                        Presto.it</strong> <br>
                                     Simulazione lavorativa in team utilizzando la metodologia Scrum per la creazione di
                                     un e-commerce customer-to-customer. Il progetto è presente sulla mia pagina Github.
                                     <br><br>
