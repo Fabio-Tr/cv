@@ -43,7 +43,7 @@
                     <div class="row justify-content-center d-flex align-items-center">
 
                         <h2 class="col-12 yellow-text font-gothic">About me</h2>
-                        <p class="col-12 pt-5" itemprop="knowsAbout">
+                        <p class="col-12 pt-3" itemprop="knowsAbout">
                             Mi chiamo <strong>Fabio Trani</strong>, ho 31 anni e sono un <strong>Junior Full-Stack Web
                                 Developer</strong> abile nelle
                             metodologie agili. <br><br>
