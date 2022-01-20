@@ -17,7 +17,7 @@
         </div>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" id="home-nav" aria-current="page" href="#">About me</a>
+                <a class="nav-link" id="home-nav" aria-current="page" href="#">About me</a>
                 <a class="nav-link" id="cv-nav" href="#">CV</a>
                 <a class="nav-link" id="contact-nav" href="#">Contattami</a>
             </div>
