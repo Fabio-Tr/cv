@@ -35,7 +35,8 @@
                 <div class="row d-flex justify-content-center p-0 m-3">
                     <div class="first-title">
                         <h1 class="col-12 text-center h1-animation" itemprop="name"> Fabio Trani</h1>
-                        <h3 class="col-12 text-center h3-animation fst-italic" itemprop="jobTitle">Full-Stack Web Developer</h3>
+                        <h3 class="col-12 text-center h3-animation fst-italic" itemprop="jobTitle">Full-Stack Web
+                            Developer</h3>
                     </div>
                 </div>
                 <div class="container col-12 d-flex justify-content-center align-items-center home-container rounded pt-3"
@@ -181,6 +182,27 @@
 
 
 
+                    </div>
+                </div>
+
+
+                <div class="container col-12 d-flex align-items-center project-container rounded pt-3"
+                    id="project">
+                    <div class="row d-flex align-items-center">
+
+                        <h2 class="col-12 yellow-text font-gothic text-start">I mie progetti</h2>
+                        
+                        <div class="card col-12 col-3 pt-3 card-project" style="width: 30rem;">
+                            <img src="/img/peterhouse-home.png" class="card-img-top"
+                                alt="Anteprima progetto Peters house">
+                            <div class="card-body">
+                                <h5 class="card-title">Peter's House</h5>
+                                <p class="card-text">Progetto per un sito vetrina di due case vacanze (ancora in
+                                    sviluppo)</p>
+                                <a href="http://peters-house.herokuapp.com/" class="btn btn-primary">Vai al
+                                    sito</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

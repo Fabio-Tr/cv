@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light py-0">
     <div class="container-fluid project-navbar align-items-center">
         <a class="navbar-brand" href="{{route('homepage')}}">
-            <img src="./img/logo3.png" alt="Il logo di Fabio Trani" class="img-fluid">
+            <img src="./img/Ft2.gif" alt="Il logo di Fabio Trani" class="img-fluid">
         </a>
         <button class="navbar-toggler mytoggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,6 +19,7 @@
             <div class="navbar-nav">
                 <a class="nav-link" id="home-nav" aria-current="page" href="#">About me</a>
                 <a class="nav-link" id="cv-nav" href="#">CV</a>
+                <a class="nav-link" id="project-nav" href="#">Progetti</a>
                 <a class="nav-link" id="contact-nav" href="#">Contattami</a>
             </div>
         </div>

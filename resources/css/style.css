@@ -55,7 +55,7 @@ body {
     margin-bottom: 0px;
 }
 
-#home, #cv, #contact {
+#home, #cv, #contact, #project {
     /* background-color: rgba(2, 40, 255, 0.89); */
     background-color: var(--background);
     padding: 15px;
@@ -144,4 +144,8 @@ a i:hover {
       background-color: white;
       border: solid var(--terzary) !important;
       color: var(--secondary);
+  }
+
+  .card-project {
+      background-color: rgb(81, 84, 97) !important;
   }
