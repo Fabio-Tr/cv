@@ -192,7 +192,7 @@
 
                         <h2 class="col-12 yellow-text font-gothic text-start">I mie progetti</h2>
                         
-                        <div class="card col-12 col-3 pt-3 card-project" style="width: 30rem;">
+                        <div class="card col-12 col-3 pt-3 card-project" style="width: 18rem;">
                             <img src="/img/peterhouse-home.png" class="card-img-top"
                                 alt="Anteprima progetto Peters house">
                             <div class="card-body">
