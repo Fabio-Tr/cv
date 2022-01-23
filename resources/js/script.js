@@ -1,66 +1,33 @@
 window.onload = function () {
 
+    var x = document.getElementById("home");
+    var xBtn = document.getElementById('home-nav');
+    var y = document.getElementById("cv");
+    var yBtn = document.getElementById('cv-nav');
+    var z = document.getElementById("contact");
+    var zBtn = document.getElementById('contact-nav');
+    var v = document.getElementById("project");
+    var vBtn = document.getElementById('project-nav');
 
-    document.getElementById('home-nav').onclick = function () {
-        var x = document.getElementById("home");
-        var y = document.getElementById("cv");
-        var z = document.getElementById("contact");
-        var v = document.getElementById("project");
-        x.style.display = "block";
-        x.classList.add("d-flex");
-        y.style.display = "none";
-        y.classList.remove("d-flex");
-        z.style.display = "none";
-        z.classList.remove("d-flex");
-        v.classList.remove("d-flex");
-        v.style.display = "none";
 
+    function myEffect(a, b, c, d, aBtn) {
+        aBtn.onclick = function () {
+            a.style.display = "block";
+            a.classList.add("d-flex");
+            b.style.display = "none";
+            b.classList.remove("d-flex");
+            c.style.display = "none";
+            c.classList.remove("d-flex");
+            d.classList.remove("d-flex");
+            d.style.display = "none";
+        }
     }
 
-    document.getElementById('cv-nav').onclick = function () {
-        var x = document.getElementById("cv");
-        var y = document.getElementById("home");
-        var z = document.getElementById("contact");
-        var v = document.getElementById("project");
-        x.style.display = "block";
-        y.classList.remove("d-flex");
-        y.style.display = "none";
-        z.classList.remove("d-flex");
-        z.style.display = "none";
-        v.classList.remove("d-flex");
-        v.style.display = "none";
+    myEffect(x, y, z, v, xBtn);
+    myEffect(y, z, v, x, yBtn);
+    myEffect(z, v, x, y, zBtn);
+    myEffect(v, x, y, z, vBtn);
 
-    }
-
-    document.getElementById('contact-nav').onclick = function () {
-        var x = document.getElementById("contact");
-        var y = document.getElementById("home");
-        var z = document.getElementById("cv");
-        var v = document.getElementById("project");
-        x.style.display = "block";
-        y.classList.remove("d-flex");
-        y.style.display = "none";
-        z.classList.remove("d-flex");
-        z.style.display = "none";
-        v.classList.remove("d-flex");
-        v.style.display = "none";
-
-    }
-
-    document.getElementById('project-nav').onclick = function () {
-        var v = document.getElementById("project");
-        var x = document.getElementById("contact");
-        var y = document.getElementById("home");
-        var z = document.getElementById("cv");
-        v.style.display = "block";
-        y.classList.remove("d-flex");
-        y.style.display = "none";
-        z.classList.remove("d-flex");
-        z.style.display = "none";
-        x.classList.remove("d-flex");
-        x.style.display = "none";
-
-    }
 
     var triggerTabList = [].slice.call(document.querySelectorAll('#myTab button'))
     triggerTabList.forEach(function (triggerEl) {
@@ -73,5 +40,26 @@ window.onload = function () {
     })
 
 
+    var txtAbout = 'about me';
+    var txtCurriculum = 'curriculum vitae';
+    var txtProject = 'i miei progetti';
+    var txtContact = 'contattami';
 
+    var idAbout = document.getElementById("aboutTitle")
+    var idCurriculum = document.getElementById("curriculumTitle")
+    var idProject = document.getElementById("projectTitle")
+    var idContact = document.getElementById("contactTitle")
+
+    function typeWriter(a, b) {
+        for (let i = 0; i < a.length; i++) {
+            setTimeout(() => {
+                b.innerHTML += a.charAt(i);
+            }, i * 150);
+        }
+    }
+
+    typeWriter(txtAbout, idAbout);
+    typeWriter(txtCurriculum, idCurriculum);
+    typeWriter(txtProject, idProject);
+    typeWriter(txtContact, idContact);
 }

@@ -43,7 +43,7 @@
                     id="home">
                     <div class="row justify-content-center d-flex align-items-center">
 
-                        <h2 class="col-12 yellow-text font-gothic">About me</h2>
+                        <h2 class="col-12 yellow-text font-gothic" id="aboutTitle"></h2>
                         <p class="col-12 pt-3" itemprop="knowsAbout">
                             Mi chiamo <strong>Fabio Trani</strong>, ho 31 anni e sono un <strong>Junior Full-Stack Web
                                 Developer</strong> abile nelle
@@ -71,7 +71,7 @@
 
                 <div class="container col-12 justify-content-center cv-container rounded" id="cv">
                     <div class="row justify-content-center">
-                        <h2 class="text-center yellow-text font-gothic">Curriculum Vitae</h2>
+                        <h2 class="text-center yellow-text font-gothic" id="curriculumTitle"></h2>
 
                         <nav>
                             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
@@ -190,7 +190,7 @@
                     id="project">
                     <div class="row d-flex align-items-center">
 
-                        <h2 class="col-12 yellow-text font-gothic text-start">I mie progetti</h2>
+                        <h2 class="col-12 yellow-text font-gothic text-start" id="projectTitle"></h2>
                         
                         <div class="card col-12 col-3 pt-3 card-project" style="width: 18rem;">
                             <img src="/img/peterhouse-home.png" class="card-img-top"
@@ -209,7 +209,7 @@
                 <div class="container col-12 justify-content-center align-items-center contact-form  rounded"
                     id="contact">
                     <div class="row justify-content-center align-items-center">
-                        <h2 class="col-12 text-center yellow-text font-gothic">Contattami</h2>
+                        <h2 class="col-12 text-center yellow-text font-gothic" id="contactTitle"></h2>
 
                         <form class="col-12" method="POST" action="{{ route('mail.contact') }}">
                             @csrf
