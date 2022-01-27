@@ -3264,7 +3264,7 @@ window.onload = function () {
     var _loop = function _loop(i) {
       setTimeout(function () {
         b.innerHTML += a.charAt(i);
-      }, i * 150);
+      }, i * 200);
     };
 
     for (var i = 0; i < a.length; i++) {

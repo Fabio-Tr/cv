@@ -54,7 +54,7 @@ window.onload = function () {
         for (let i = 0; i < a.length; i++) {
             setTimeout(() => {
                 b.innerHTML += a.charAt(i);
-            }, i * 150);
+            }, i * 200);
         }
     }
 

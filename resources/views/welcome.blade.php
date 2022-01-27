@@ -186,13 +186,12 @@
                 </div>
 
 
-                <div class="container col-12 d-flex align-items-center project-container rounded pt-3"
-                    id="project">
+                <div class="container col-12 d-flex align-items-center project-container rounded pt-3" id="project">
                     <div class="row d-flex align-items-center">
 
                         <h2 class="col-12 yellow-text font-gothic text-start" id="projectTitle"></h2>
-                        
-                        <div class="card col-12 col-3 pt-3 card-project" style="width: 18rem;">
+
+                        <div class="card col-12 col-md-3 pt-3 card-project">
                             <img src="/img/peterhouse-home.png" class="card-img-top"
                                 alt="Anteprima progetto Peters house">
                             <div class="card-body">
@@ -236,11 +235,6 @@
                                     messaggio</label>
                                 <textarea type="Text" name="message" value="{{ old('message') }}"
                                     class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Dammi un check!</label>
                             </div>
                             <button type="submit" class="btn btn-primary">Invia!</button>
                         </form>
