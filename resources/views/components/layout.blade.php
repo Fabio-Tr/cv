@@ -25,12 +25,14 @@
     <meta name="description" content="Il curriculum vitae di Fabio Trani">
     <meta name="keywords" content="curriculum vitae, cv curriculum vitae, cv v, cv vitae    ">
 
-    <meta property="og:url" content="https://www.fabiotrani.it/"/>
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="Fabio Trani - Curriculum Vitae"/>
-		<meta property="og:description" content="Home Page di Fabio Trani - Curriculum Vitae"/>
-		<meta property="og:site_name" content="www.fabiotrani.it"/>
-		<meta property="og:locale" content="it_IT"/>
+    <meta property="og:url" content="https://www.fabiotrani.it/" />
+    <meta property="og:image"
+        content="https://www.fabiotrani.it/img/titlelogo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fabio Trani - Curriculum Vitae" />
+    <meta property="og:description" content="Home Page di Fabio Trani - Curriculum Vitae" />
+    <meta property="og:site_name" content="www.fabiotrani.it" />
+    <meta property="og:locale" content="it_IT" />
 </head>
 
 <body>
@@ -48,7 +50,7 @@
     {{ $slot }}
 
 
-    
+
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
