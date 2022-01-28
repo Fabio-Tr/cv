@@ -27,7 +27,7 @@
 
     <meta property="og:url" content="https://www.fabiotrani.it/" />
     <meta property="og:image"
-        content="https://www.fabiotrani.it/img/titlelogo.png">
+        content="https://www.fabiotrani.it/img/logo300.png">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Fabio Trani - Curriculum Vitae" />
     <meta property="og:description" content="Home Page di Fabio Trani - Curriculum Vitae" />
