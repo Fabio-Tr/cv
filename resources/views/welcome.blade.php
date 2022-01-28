@@ -148,7 +148,7 @@
                                     Aulab Hackademy <br>
                                     <strong class="yellow-text">Full-Stack Web Developer - Progetto
                                         Presto.it</strong> <br>
-                                    Simulazione lavorativa in team utilizzando la metodologia Scrum per la creazione di
+                                    Simulazione lavorativa in team utilizzando il framework Scrum per la creazione di
                                     un e-commerce customer-to-customer. Il progetto è presente sulla mia pagina Github.
                                     <br><br>
                                     3/06/2019 – 31/12/2019 <br>
