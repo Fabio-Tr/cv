@@ -26,7 +26,7 @@
 
 
 
-    <div itemscope itemtype="https://www.knefas.eu/Person">
+    <div itemscope itemtype="https://www.fabiotrani.it/Person">
 
         <div class="container musthead justify-content-center">
 
