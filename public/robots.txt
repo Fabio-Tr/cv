@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://www.fabiotrani.it/sitemap.xml
+Sitemap: https://www.fabiotrani.it/sitemap.xml

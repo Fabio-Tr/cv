@@ -28,7 +28,7 @@
 
     <div itemscope itemtype="https://www.fabiotrani.it/Person">
 
-        <div class="container musthead justify-content-center">
+        <div class="container masthead justify-content-center">
 
             <div class="row d-flex justify-content-center">
 
@@ -236,7 +236,9 @@
                                 <textarea type="Text" name="message" value="{{ old('message') }}"
                                     class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Invia!</button>
+                            <button type="submit" class="btn btn-primary mb-3">Invia!</button>
+                                <p>Oppure puoi scrivere direttamente a 
+                                    <a href="mailto:trani.fabio.90@gmail.com">trani.fabio.90@gmail.com</a></p>
                         </form>
                     </div>
                 </div>
